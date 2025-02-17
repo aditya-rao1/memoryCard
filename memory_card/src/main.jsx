@@ -7,8 +7,6 @@ import Score from './components/Score.jsx'
 import Tile from './components/Tile.jsx'
 
 // The plan is to use props to have different information for the Tile after doing design
-// Next session look more into design for header and Score. 
-// Also get everything laid out properly in terms of style 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
