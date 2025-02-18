@@ -4,9 +4,9 @@ import './index.css'
 import App from './App.jsx'
 import Header from './components/Header.jsx'
 import Score from './components/Score.jsx'
-import Tile from './components/Tile.jsx'
+import Tile from './components/Tiles.jsx'
 
-// The plan is to use props to have different information for the Tile after doing design
+// The next step is to have each tile show a different image from an API..
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
